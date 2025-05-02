@@ -1,2 +1,32 @@
-# Google App Engine generated folder
-appengine-generated/
+# Android (Kotlin + Gradle)
+*.apk
+*.aar
+*.ap_
+*.dex
+*.class
+/build/
+/captures/
+.externalNativeBuild
+local.properties
+.idea/
+*.iml
+*.jks
+
+# Node / Angular
+/node_modules/
+/dist/
+/tmp/
+/out-tsc/
+.vscode/
+.idea/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Google App Engine
+.gcloud/
+app.yaml
+
+# Misc
+.DS_Store
+.env
